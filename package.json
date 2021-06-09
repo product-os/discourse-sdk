@@ -8,14 +8,16 @@
     "generate": "openapi-generator-cli generate -i openapi.json -g typescript-node -o lib --skip-validate-spec",
     "clean": "rimraf build",
     "build": "npm run clean && tsc",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "doc": "typedoc lib/ && touch docs/.nojekyll"
   },
   "author": "Balena.io. <hello@balena.io>",
   "license": "ISC",
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "^2.3.3",
     "rimraf": "^3.0.2",
-    "typescript": "^4.3.2"
+    "typedoc": "0.17.0",
+    "typescript": "3.8.3"
   },
   "dependencies": {
     "@types/node": "^15.12.2",
