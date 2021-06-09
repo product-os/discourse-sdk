@@ -1,0 +1,25 @@
+{
+  "name": "@balena/discourse-sdk",
+  "version": "1.0.0",
+  "description": "Client SDK for discourse",
+  "main": "build/api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "openapi-generator-cli generate -i openapi.json -g typescript-node -o lib --skip-validate-spec",
+    "clean": "rimraf build",
+    "build": "npm run clean && tsc",
+    "prepack": "npm run build"
+  },
+  "author": "Balena.io. <hello@balena.io>",
+  "license": "ISC",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.3.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@types/node": "^15.12.2",
+    "@types/request": "^2.48.5",
+    "request": "^2.88.2"
+  }
+}
