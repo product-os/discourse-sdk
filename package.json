@@ -1,6 +1,6 @@
 {
   "name": "@balena/discourse-sdk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Client SDK for discourse",
   "main": "build/api.js",
   "scripts": {
