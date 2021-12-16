@@ -1,6 +1,6 @@
 {
   "name": "@balena/discourse-sdk",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Client SDK for discourse",
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
     "@types/node": "^15.12.2",
     "@types/request": "^2.48.5",
     "request": "^2.88.2"
+  },
+  "versionist": {
+    "publishedAt": "2021-12-16T12:31:28.971Z"
   }
 }
