@@ -14,8 +14,8 @@ import { RequestFile } from './models';
 
 export class InlineResponse20011 {
     'success': string;
-    'usernames': any[];
-    'skippedUsernames': any[];
+    'usernames': Array;
+    'skippedUsernames': Array;
 
     static discriminator: string | undefined = undefined;
 

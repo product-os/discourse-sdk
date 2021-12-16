@@ -14,7 +14,7 @@ import { RequestFile } from './models';
 import { InlineResponse20042Meta } from './inlineResponse20042Meta';
 
 export class InlineResponse20042 {
-    'directoryItems': any[];
+    'directoryItems': Array;
     'meta': InlineResponse20042Meta;
 
     static discriminator: string | undefined = undefined;

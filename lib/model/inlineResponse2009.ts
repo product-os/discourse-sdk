@@ -14,8 +14,8 @@ import { RequestFile } from './models';
 import { InlineResponse2009Meta } from './inlineResponse2009Meta';
 
 export class InlineResponse2009 {
-    'members': any[];
-    'owners': any[];
+    'members': Array;
+    'owners': Array;
     'meta': InlineResponse2009Meta;
 
     static discriminator: string | undefined = undefined;

@@ -14,7 +14,7 @@ import { RequestFile } from './models';
 import { InlineResponse20012Extras } from './inlineResponse20012Extras';
 
 export class InlineResponse20012 {
-    'groups': any[];
+    'groups': Array;
     'extras': InlineResponse20012Extras;
     'totalRowsGroups': number;
     'loadMoreGroups': string;

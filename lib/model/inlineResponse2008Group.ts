@@ -59,7 +59,7 @@ export class InlineResponse2008Group {
     'imapPort': any | null;
     'imapSsl': any | null;
     'imapMailboxName': string;
-    'imapMailboxes': any[];
+    'imapMailboxes': Array;
     'emailUsername': any | null;
     'emailPassword': any | null;
     'imapLastError': any | null;
@@ -67,16 +67,16 @@ export class InlineResponse2008Group {
     'imapNewEmails': any | null;
     'messageCount': number;
     'allowUnknownSenderTopicReplies': boolean;
-    'watchingCategoryIds': any[];
-    'trackingCategoryIds': any[];
-    'watchingFirstPostCategoryIds': any[];
-    'regularCategoryIds': any[];
-    'mutedCategoryIds': any[];
-    'watchingTags'?: any[];
-    'watchingFirstPostTags'?: any[];
-    'trackingTags'?: any[];
-    'regularTags'?: any[];
-    'mutedTags'?: any[];
+    'watchingCategoryIds': Array;
+    'trackingCategoryIds': Array;
+    'watchingFirstPostCategoryIds': Array;
+    'regularCategoryIds': Array;
+    'mutedCategoryIds': Array;
+    'watchingTags'?: Array;
+    'watchingFirstPostTags'?: Array;
+    'trackingTags'?: Array;
+    'regularTags'?: Array;
+    'mutedTags'?: Array;
 
     static discriminator: string | undefined = undefined;
 

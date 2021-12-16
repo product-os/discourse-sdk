@@ -13,7 +13,7 @@
 import { RequestFile } from './models';
 
 export class InlineResponse20012Extras {
-    'typeFilters': any[];
+    'typeFilters': Array;
 
     static discriminator: string | undefined = undefined;
 

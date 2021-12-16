@@ -15,8 +15,8 @@ import { RequestFile } from './models';
 export class InlineResponse20026TagGroup {
     'id': number;
     'name': string;
-    'tagNames': any[];
-    'parentTagName': any[];
+    'tagNames': Array;
+    'parentTagName': Array;
     'onePerTopic': boolean;
     'permissions': object;
 

@@ -20,7 +20,7 @@ export class InlineResponse20043 {
     'name': any | null;
     'avatarTemplate': string;
     'email'?: string;
-    'secondaryEmails'?: any[];
+    'secondaryEmails'?: Array;
     'active': boolean;
     'admin': boolean;
     'moderator': boolean;
@@ -40,7 +40,7 @@ export class InlineResponse20043 {
     'postsReadCount': number;
     'topicsEntered': number;
     'postCount': number;
-    'associatedAccounts'?: any[];
+    'associatedAccounts'?: Array;
     'canSendActivationEmail': boolean;
     'canActivate': boolean;
     'canDeactivate': boolean;
@@ -77,7 +77,7 @@ export class InlineResponse20043 {
     'suspendedBy': any | null;
     'silencedBy': any | null;
     'tl3Requirements'?: InlineResponse20043Tl3Requirements;
-    'groups': any[];
+    'groups': Array;
 
     static discriminator: string | undefined = undefined;
 

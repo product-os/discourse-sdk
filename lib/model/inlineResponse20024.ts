@@ -14,10 +14,10 @@ import { RequestFile } from './models';
 import { InlineResponse20024GroupedSearchResult } from './inlineResponse20024GroupedSearchResult';
 
 export class InlineResponse20024 {
-    'posts'?: any[];
-    'users'?: any[];
-    'categories'?: any[];
-    'groups'?: any[];
+    'posts'?: Array;
+    'users'?: Array;
+    'categories'?: Array;
+    'groups'?: Array;
     'groupedSearchResult': InlineResponse20024GroupedSearchResult;
 
     static discriminator: string | undefined = undefined;

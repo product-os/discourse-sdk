@@ -13,7 +13,7 @@
 import { RequestFile } from './models';
 
 export class InlineResponse20048 {
-    'userActions': any[];
+    'userActions': Array;
 
     static discriminator: string | undefined = undefined;
 

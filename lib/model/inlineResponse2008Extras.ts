@@ -13,7 +13,7 @@
 import { RequestFile } from './models';
 
 export class InlineResponse2008Extras {
-    'visibleGroupNames': any[];
+    'visibleGroupNames': Array;
 
     static discriminator: string | undefined = undefined;
 

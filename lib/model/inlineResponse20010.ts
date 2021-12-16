@@ -14,8 +14,8 @@ import { RequestFile } from './models';
 
 export class InlineResponse20010 {
     'success': string;
-    'usernames': any[];
-    'emails': any[];
+    'usernames': Array;
+    'emails': Array;
 
     static discriminator: string | undefined = undefined;
 
