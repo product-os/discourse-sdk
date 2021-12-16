@@ -18,7 +18,7 @@ export class InlineResponse20047 {
     'name': any | null;
     'avatarTemplate': string;
     'email'?: string;
-    'secondaryEmails'?: any[];
+    'secondaryEmails'?: Array;
     'active': boolean;
     'admin': boolean;
     'moderator': boolean;

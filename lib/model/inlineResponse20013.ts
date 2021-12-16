@@ -18,8 +18,8 @@ export class InlineResponse20013 {
     'email'?: string;
     'emailed'?: boolean;
     'customMessage'?: string | null;
-    'topics'?: any[];
-    'groups'?: any[];
+    'topics'?: Array;
+    'groups'?: Array;
     'createdAt'?: string;
     'updatedAt'?: string;
     'expiresAt'?: string;

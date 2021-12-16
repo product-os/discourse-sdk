@@ -15,7 +15,7 @@ import { RequestFile } from './models';
 export class InlineResponse2002CategoryList {
     'canCreateCategory': boolean;
     'canCreateTopic': boolean;
-    'categories': any[];
+    'categories': Array;
 
     static discriminator: string | undefined = undefined;
 

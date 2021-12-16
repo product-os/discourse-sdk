@@ -21,10 +21,10 @@ export class InlineResponse20024GroupedSearchResult {
     'moreFullPageResults': any | null;
     'canCreateTopic': boolean;
     'error': any | null;
-    'postIds': any[];
-    'userIds': any[];
-    'categoryIds': any[];
-    'groupIds': any[];
+    'postIds': Array;
+    'userIds': Array;
+    'categoryIds': Array;
+    'groupIds': Array;
 
     static discriminator: string | undefined = undefined;
 

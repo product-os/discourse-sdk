@@ -15,8 +15,8 @@ import { RequestFile } from './models';
 export class InlineResponse2005TopicList {
     'canCreateTopic': boolean;
     'perPage': number;
-    'topTags'?: any[];
-    'topics': any[];
+    'topTags'?: Array;
+    'topics': Array;
 
     static discriminator: string | undefined = undefined;
 

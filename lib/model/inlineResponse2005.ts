@@ -14,8 +14,8 @@ import { RequestFile } from './models';
 import { InlineResponse2005TopicList } from './inlineResponse2005TopicList';
 
 export class InlineResponse2005 {
-    'users'?: any[];
-    'primaryGroups'?: any[];
+    'users'?: Array;
+    'primaryGroups'?: Array;
     'topicList': InlineResponse2005TopicList;
 
     static discriminator: string | undefined = undefined;

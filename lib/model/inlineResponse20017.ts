@@ -44,7 +44,7 @@ export class InlineResponse20017 {
     'canWiki': boolean;
     'userTitle': any | null;
     'bookmarked': boolean;
-    'actionsSummary': any[];
+    'actionsSummary': Array;
     'moderator': boolean;
     'admin': boolean;
     'staff': boolean;
